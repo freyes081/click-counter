@@ -1,4 +1,4 @@
-import './App.css';
+// import './App.css';
 import Boton from './componentes/Boton';
 import Contador from './componentes/Contador';
 import freeCodeCampLogo from './assets/image/freecodecamp-logo.png';
@@ -17,14 +17,14 @@ function App() {
   }
 
   return (
-    <div className='App'>
-      <div className='freecodecamp-logo-contenedor'>
+    <div className='flex flex-wrap items-center justify-center pt-1 font-serif  '>
+      <div className='w-full flex items-center justify-center m-5 '>
         <img 
-          className='freecodecamp-logo'
+          className='h-12'
           src={freeCodeCampLogo}
           alt='Logo de freeCodeCamp' />
       </div>
-      <div className='contenedor-principal'>
+      <div className='h-100 min-w-102 flex flex-wrap flex-col items-center justify-center'>
         <Contador numClics={numClics} />
         <Boton 
           texto='Clic'

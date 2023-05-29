@@ -1,9 +1,9 @@
 import React from 'react';
-import '../assets/css/Contador.css';
+// import '../assets/css/Contador.css';
 
 function Contador({ numClics }) {
   return (
-    <div className='contador'>
+    <div className='text-white h-112 '>
       {numClics}
     </div>
   );   
